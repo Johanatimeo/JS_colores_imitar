@@ -3,8 +3,17 @@
     margin: 1rem;
 }
 
-:cuadro {
+.cuadro {
     --size:200px;
     width: var(--size);
     height: var(--size);
+    border: cpx solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
 }
